@@ -8,5 +8,6 @@ Read the source. It's very simple.
 
 1. `git clone git@github.com:DeTeam/h-queue.git h-queue && cd h-queue`
 2. `cabal sandbox init`
-3. `cabal configure && cabal build`
-4. `dist/build/h-queue/h-queue`
+3. `cabal install --only-dependencies`
+4. `cabal configure && cabal build`
+5. `dist/build/h-queue/h-queue`
